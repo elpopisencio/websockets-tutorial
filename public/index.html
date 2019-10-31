@@ -7,7 +7,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js" integrity="sha256-OgiHfllOBEOiWQ2OcBsDncRG2k7QBW9Rs1dB7MH2N2s=" crossorigin="anonymous"></script>
 </head>
 <body>
-	Hello world!
+	<div id="mario-chat">
+		<h2>Mario Chat</h2>
+		<div id="chat-window">
+			<div id="output"></div>
+		</div>
+		<input id="handle" type="text" placeholder="Handle" />
+		<input id="message" type="text" placeholder="Message" />
+		<button id="send">Send</button>
+	</div>
 	<script src="/chat.js" ></script>
 </body>
 </html>
